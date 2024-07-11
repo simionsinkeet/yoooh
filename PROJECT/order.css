@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(66, 65, 65);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.signup-box{
+    background-color:white;
+    margin: auto;
+    width: 450px;
+    height: 700px;
+    margin-top: 20px;
+    border-radius: 3px;
+   
+}
+h1{
+    text-align: center; 
+    padding-top: 15px;
+
+}
+h4{
+    text-align: center;
+}
+form{
+    width: 400px;
+    margin-left: 30px;
+
+}
+form label{
+    display: flex;
+    margin-top: 30px;
+    font-size: 18px;
+    
+}
+form input{
+    width: 100px;
+    padding: 7px;
+}
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    background-color: turquoise;
+    scroll-padding-top: 5px;
+    border-radius: 3px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    border: none;
+    
+}
+.para-2{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 10px;
+}.para-2 a{
+    color: chartreuse;
+    font-size: 24px;
+
+}
+.login-box{
+    background-color: aliceblue;
+    width: 320px;
+    height: 500px;
+    border-radius:20px ;
+    text-align: center;
+    display: flex;
+}
+.login-box h1{
+    color: chocolate;
+    text-align: center;
+    padding-top: none;
+}
+.login-box form{
+    padding-top: 25px;
+}
+.order{
+    color: rgb(221, 149, 16);
+}
+.good{
+    background-color:black;
+    color: rgb(221, 149, 16);
+    border-radius: 10px;
+    padding: 30px 20px;
+    
+
+}
+.good:hover{
+    background-color:red;
+    transition-duration: 0.6s;
+}

@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:black;
+    color:white;
+   
+}
+
+nav{
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  position:fixed;
+
+}
+.logo{
+    color: rgb(189, 143, 58);
+    font-size: 30px;
+}
+nav ul li{
+    display: inline-block;
+ padding-left: 110px; 
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 4px;
+    
+}
+nav ul li:hover{
+    background-color: rgb(170, 118, 22) ;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border-radius: 7px;
+    
+}
+
+span{
+    color: orange;
+}
+.button{
+    padding: 3px 5px;
+    background-color: orange;
+    border-radius: 5px;
+    border-top: none;
+    border-bottom: none;
+    
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+}
+.body{
+display: flex;
+flex-wrap: wrap;
+  
+}
+.image{
+    margin-top:100px;
+    padding-left: 140px;
+}
+.texts{
+   
+    padding-left: 170px;
+    margin-top: 40px;
+   
+}
+#aboutus{
+    width: 100%;
+    height: 70%;
+}
+.texts{
+    padding-bottom: 50px;
+    margin: 20px;
+    padding-top: 180px;
+   
+}
+.form{
+    padding-left: 200px;
+}
+
+/* about us */
+#aboutus{
+    
+    height: 150vh;
+    background-color: black;
+    width: 100%;
+}
+.first{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.page2{
+    display: flex;
+    padding-top: 20px;
+    margin: 20px;
+    height: 20vh;
+}
+.text{
+    padding-top: 10px;
+    margin-top: 20px;
+    height: 30vh;
+    width: 100%;
+    background-color:black;
+    display: flex;
+}
+.header{
+    padding-left: -65%;
+}
+
+/* products */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#pros{
+    height: 150vh;
+}
+#products{
+    display: flex;
+    flex-wrap:wrap;
+    background-color: aliceblue;
+}
+.ourmenu{
+    padding-left: 41%;
+}
+span{
+    color: orange;
+}
+.line1{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.if{
+    background-color: orangered;
+    color: white;
+    border-radius: 8px;
+    border-bottom: none;
+    border-top: none;
+    padding: 8px 3px;
+    border: none;
+}
+.if:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.line2{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.line3{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+/* ORDER */
+
+
+body{
+    background-color: rgb(66, 65, 65);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.signup-box{
+    background-color:white;
+    margin: auto;
+    width: 450px;
+    height: 700px;
+    margin-top: 20px;
+    border-radius: 3px;
+   
+}
+h1{
+    text-align: center; 
+    padding-top: 15px;
+
+}
+h4{
+    text-align: center;
+}
+form{
+    width: 400px;
+    margin-left: 30px;
+
+}
+form label{
+    display: flex;
+    margin-top: 30px;
+    font-size: 18px;
+    
+}
+form input{
+    width: 100px;
+    padding: 7px;
+}
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    background-color: turquoise;
+    scroll-padding-top: 5px;
+    border-radius: 3px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    border: none;
+    
+}
+.para-2{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 10px;
+}.para-2 a{
+    color: chartreuse;
+    font-size: 24px;
+
+}
+.login-box{
+    background-color: aliceblue;
+    width: 320px;
+    height: 500px;
+    border-radius:20px ;
+    text-align: center;
+    display: flex;
+}
+.login-box h1{
+    color: chocolate;
+    text-align: center;
+    padding-top: none;
+}
+.login-box form{
+    padding-top: 25px;
+}
+.order{
+    color: orange;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(214, 182, 40);
+    padding: 70px 0 30px;
+    border-top-left-radius: 88px;
+    font-size: 15px;
+    color: rgb(12, 11, 11);
+}
+.row{
+    margin:auto ;
+    display: flex;
+    width: 85%;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    justify-content: space-between;
+}
+.col1{
+    justify-content: space-between;
+  
+}
+.col3{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    list-style: none;
+}
